@@ -41,7 +41,7 @@ To connect our codes with our repo.
 
 ## 🚀 Live Demo
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Comming Soon]
 
 ## 💻 Getting Started
 
