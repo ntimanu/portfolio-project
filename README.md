@@ -21,19 +21,13 @@
 
 ### Tech Stack
 
-**Visual studio**
-Visual studio for HTML and CSS
-**Figma**
-
-As a referrence
-
-**Git**
-
-To control our files ...
-
-**Github**
-
-To connect our codes with our repo.
+Tech Stack
+HTML
+CSS
+JS
+Git/GitHub
+node.js
+Boostrap 5
 
 ### Key Features
 
@@ -50,6 +44,39 @@ When you click on the page, the browser shows you the information of the owner.
 ### Prerequisites
 
 Clone this repository to your desired folder and open html file.
+
+### Setup
+
+Clone this repository to your desired folder:
+Example commands:
+
+```sh
+  cd portfolio-project
+  git clone https://github.com/ntimanu/portfolio-project
+```
+
+### Install
+
+Install this project with:
+
+<!--
+Example command:
+```sh
+  cd Capstone-1-Project
+  npm install
+```
+--->
+
+### Usage
+
+To run the project, execute the following command:
+
+<!--
+Example command:
+```sh
+  open live server
+```
+--->
 
 ## 👥 Authors
 
