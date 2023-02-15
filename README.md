@@ -108,4 +108,4 @@ I would like to thank Microverse for this amazing exercise.
 
 ## 📝 License
 
-This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
+This project is [MIT](https://github.com/ntimanu/portfolio-project/blob/htmlcssbranch/LICENCE) licensed.
