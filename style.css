@@ -4,7 +4,6 @@
   position: absolute;
   background: #fff;
   margin-top: -800px;
-  border: 2px solid red;
 }
 
 .font {
@@ -96,7 +95,7 @@
   color: #7f8cff;
 }
 
-.socialmedia {
+.social {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
@@ -120,7 +119,6 @@
   top: 0;
   margin-top: 800px;
 
-  border:2px solid #172b4d;
 }
 .first {
   box-sizing: border-box;
@@ -148,12 +146,21 @@
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 34px;
   line-height: 44px;
   color: #172b4d;
-  
 }
-
+.tonic1 {
+  width: 295px;
+  height: 80px;
+  margin-top: 0px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 44px;
+  color: #172b4d;
+}
 .frame {
   display: flex;
   flex-direction: row;
@@ -338,4 +345,327 @@
   background: #FFFFFF;
   border: 1px solid #DFE1E6;
   border-radius: 16px;
+}
+
+.about-my-self {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 114px 0;
+  gap: 24px;
+  position: absolute;
+  width: 375px;
+  height: 1125.15px;
+  top: 3640px;
+  background: #fff;
+
+  border-radius: 0 26% 0 0/0 8% 0 0;
+  border:2px solid #000;
+}
+.topabout {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: 12px;
+  width: 327px;
+  height: 409px;
+}
+
+.myselftxt {
+  width: 327px;
+  height: 101px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+  
+}
+
+.aboutmetxt {
+  width: 327px;
+  height: 144px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  margin-top: -38px;
+  
+}
+
+.button2 {
+  box-sizing: border-box;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  padding: 12px;
+  height: 48px;
+  width: 166px;
+  bottom: 10px;
+  margin-left: 0;
+  margin-top: 0px;
+  gap: 10px;
+  cursor: pointer;
+  text-align: center;
+  letter-spacing: 0.03rem;
+  line-height: 24px;
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  font-style: normal;
+  color: #396df2;
+  background-color: white;
+
+
+  
+}
+
+.socialmedia {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  margin-top: -20px;
+  gap: 16px;
+  width: 200px;
+  height: 80px;
+}
+
+.outro2 {
+  width: 120px;
+  height: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+
+  
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 0;
+  margin-top: -10px;
+  width: 200px;
+  height: 40px;
+  list-style: none;
+  gap: 10px;
+
+ 
+}
+
+.languages {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 327px;
+  height: 320.15px;
+  margin-left: 0;
+  margin-top: 42px;
+ 
+}
+
+.languagetxt {
+  position: absolute;
+  height: 24px;
+  left: -10px;
+  right: 78px;
+  margin-left: 40px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #000;
+}
+
+.arrow {
+  position: absolute;
+  width: 14px;
+  height: 8px;
+  left: 320px;
+  top: 575px;
+  color: #5e6c84;
+  margin-top: 42px;
+}
+
+.languagelist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px;
+  gap: 12px;
+  margin-left: -60px;
+  margin-top: 40px;
+  width: 327px;
+  height: 248.15px;
+}
+
+.js2 {
+  width: 303px;
+  height: 66.72px;
+  list-style: none;
+  background: #f7f7f9;
+  border-radius: 8px;
+}
+
+.html2 {
+  width: 303px;
+  height: 66.72px;
+  background: #f7f7f9;
+  border-radius: 8px;
+  list-style: none;
+}
+
+.css2 {
+  width: 303px;
+  height: 66.72px;
+  list-style: none;
+  background: #f7f7f9;
+  border-radius: 8px;
+}
+
+#jsimage {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 40px;
+  margin-top: 10px;
+}
+
+#jstxt2 {
+  position: absolute;
+  height: 24px;
+  left: 76px;
+  right: 12px;
+  margin-left: 30px;
+  margin-top: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #253858;
+}
+
+#htmltxt2 {
+  position: absolute;
+  height: 24px;
+  left: 76px;
+  right: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  margin-top: 20px;
+  color: #253858;
+}
+
+#htmlimage {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 40px;
+  margin-top: 10px;
+}
+
+#csstxt2 {
+  position: absolute;
+  height: 24px;
+  left: 76px;
+  right: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #253858;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+#cssimage {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 40px;
+  margin-top: 10px;
+}
+
+.framework {
+  width: 327px;
+  height: 72px;
+}
+
+.frameworktxt {
+  position: absolute;
+  height: 24px;
+  left: 30px;
+  right: 78px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #000;
+}
+
+.arrow2 {
+  position: absolute;
+  width: 6px;
+  height: 12px;
+  left: 320px;
+  top: 25%;
+  margin-top: 580px;
+  color: #5e6c84;
+}
+
+.separator {
+  margin-top: 50px;
+  width: 327px;
+  height: 1px;
+  margin-left: -40px;
+}
+
+.skills {
+  width: 327px;
+  height: 72px;
+}
+
+.arrow3 {
+  position: absolute;
+  width: 6px;
+  height: 12px;
+  left: 320px;
+  top: 25%;
+  margin-top: 660px;
+  color: #5e6c84;
+}
+
+.separator2 {
+  margin-top: 50px;
+  width: 327px;
+  height: 1px;
+  margin-left: -40px;
 }
