@@ -1,9 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
+body {
+  background-color: #DFE1E6;
+}
+.all-project {
+  position: relative;
+  width: 375px;
+  height: 5410px;
+  background: #F7F7F9;
+  margin-top: 0px;
+  border:1px solid #F7F7F9;
+}
 .allinone {
   position: absolute;
   background: #fff;
-  margin-top: -800px;
+  margin-top: -8;
 }
 
 .font {
@@ -50,6 +61,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  
 }
 
 .headerone {
@@ -112,6 +124,7 @@
   box-sizing: border-box;
   border-radius: 0px;
   background-color: #f7f7f9;
+  justify-content: space-evenly;
   padding: 20px;
   height: 2788px;
   width: 375px;
@@ -356,11 +369,11 @@
   position: absolute;
   width: 375px;
   height: 1125.15px;
-  top: 3640px;
+  margin-top: -16px;
   background: #fff;
 
   border-radius: 0 26% 0 0/0 8% 0 0;
-  border:2px solid #000;
+  
 }
 .topabout {
   display: flex;
@@ -370,6 +383,7 @@
   gap: 12px;
   width: 327px;
   height: 409px;
+  margin-top: -46px;
 }
 
 .myselftxt {
@@ -495,9 +509,9 @@
   width: 14px;
   height: 8px;
   left: 320px;
-  top: 575px;
+  margin-top: 10px;
   color: #5e6c84;
-  margin-top: 42px;
+  
 }
 
 .languagelist {
@@ -637,7 +651,7 @@
   height: 12px;
   left: 320px;
   top: 25%;
-  margin-top: 580px;
+  margin-top: 542px;
   color: #5e6c84;
 }
 
@@ -659,7 +673,7 @@
   height: 12px;
   left: 320px;
   top: 25%;
-  margin-top: 660px;
+  margin-top: 614px;
   color: #5e6c84;
 }
 
