@@ -1,16 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 body {
-  background-color: #DFE1E6;
+  background-color: #dfe1e6;
 }
+
 .all-project {
   position: relative;
   width: 375px;
   height: 5410px;
-  background: #F7F7F9;
-  margin-top: 0px;
-  border:1px solid #F7F7F9;
+  background: #f7f7f9;
+  margin-top: 0;
+  border: 0.5px solid #f7f7f9;
 }
+
 .allinone {
   position: absolute;
   background: #fff;
@@ -27,7 +29,6 @@ body {
   list-style-type: none;
   padding: 0%;
   margin-top: 0;
-  
 }
 
 .navbar-logo {
@@ -61,7 +62,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  
 }
 
 .headerone {
@@ -122,17 +122,17 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   box-sizing: border-box;
-  border-radius: 0px;
+  border-radius: 0;
   background-color: #f7f7f9;
   justify-content: space-evenly;
   padding: 20px;
   height: 2788px;
   width: 375px;
-  gap: 0px;
+  gap: 0;
   top: 0;
   margin-top: 800px;
-
 }
+
 .first {
   box-sizing: border-box;
   display: flex;
@@ -142,10 +142,11 @@ body {
   gap: 12px;
   width: 327px;
   height: 552px;
-  background: #FFFFFF;
-  border: 1px solid #DFE1E6;
+  background: #fff;
+  border: 1px solid #dfe1e6;
   border-radius: 16px;
 }
+
 .tonicimage {
   width: 295px;
   height: 220px;
@@ -155,7 +156,7 @@ body {
 .tonic {
   width: 295px;
   height: 36px;
-  margin-top: 0px;
+  margin-top: 0;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -163,10 +164,11 @@ body {
   line-height: 44px;
   color: #172b4d;
 }
+
 .tonic1 {
   width: 295px;
   height: 80px;
-  margin-top: 0px;
+  margin-top: 0;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -174,6 +176,7 @@ body {
   line-height: 44px;
   color: #172b4d;
 }
+
 .frame {
   display: flex;
   flex-direction: row;
@@ -230,6 +233,7 @@ body {
   line-height: 16px;
   color: #7a869a;
 }
+
 .text2 {
   width: 295px;
   height: 76px;
@@ -355,8 +359,8 @@ body {
   gap: 12px;
   width: 327px;
   height: 596px;
-  background: #FFFFFF;
-  border: 1px solid #DFE1E6;
+  background: #fff;
+  border: 1px solid #dfe1e6;
   border-radius: 16px;
 }
 
@@ -371,10 +375,9 @@ body {
   height: 1125.15px;
   margin-top: -16px;
   background: #fff;
-
   border-radius: 0 26% 0 0/0 8% 0 0;
-  
 }
+
 .topabout {
   display: flex;
   flex-direction: column;
@@ -397,7 +400,6 @@ body {
   display: flex;
   align-items: center;
   color: #172b4d;
-  
 }
 
 .aboutmetxt {
@@ -410,7 +412,6 @@ body {
   line-height: 24px;
   color: #344563;
   margin-top: -38px;
-  
 }
 
 .button2 {
@@ -422,7 +423,7 @@ body {
   width: 166px;
   bottom: 10px;
   margin-left: 0;
-  margin-top: 0px;
+  margin-top: 0;
   gap: 10px;
   cursor: pointer;
   text-align: center;
@@ -434,9 +435,6 @@ body {
   font-style: normal;
   color: #396df2;
   background-color: white;
-
-
-  
 }
 
 .socialmedia {
@@ -459,8 +457,6 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
-
-  
 }
 
 .icons {
@@ -473,8 +469,6 @@ body {
   height: 40px;
   list-style: none;
   gap: 10px;
-
- 
 }
 
 .languages {
@@ -485,7 +479,6 @@ body {
   height: 320.15px;
   margin-left: 0;
   margin-top: 42px;
- 
 }
 
 .languagetxt {
@@ -511,7 +504,6 @@ body {
   left: 320px;
   margin-top: 10px;
   color: #5e6c84;
-  
 }
 
 .languagelist {
