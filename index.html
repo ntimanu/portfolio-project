@@ -213,12 +213,14 @@
   <section class="contactme">
     <h1>contact me</h1>
     <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
-  <input type="text">
-  <br>
-  <input type="text">
-  <br>
+ <form action="https://formspree.io/f/{form_id}" method="post">
+ <label for="name" type="name"></label>
+ <input type="text" name="name" id="name">
+  <label for="email">Your Email</label>
+  <input name="Email" id="email" type="email">
+  <button type="submit">Submit</button>
   <textarea name="textarea" id="" cols="30" rows="10"></textarea>
-<br>
+  </form>
   <button>Keep in touch</button>  
 </section>
   </body>
