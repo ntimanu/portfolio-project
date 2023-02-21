@@ -675,3 +675,10 @@ body {
   height: 1px;
   margin-left: -40px;
 }
+
+.contactme {
+  background: url(img/cf_bg.svg), url(img/cf_bf.svg), #6070FF;
+  /* background-position: 100% 100%; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
