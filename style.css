@@ -773,7 +773,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #6070ff;
+  color: inherit;
 }
 
 .button3 {
@@ -789,4 +789,20 @@ body {
   border: 3px #000;
   background: #fff;
   border-radius: 8px;
+  color: #6070ff;
+}
+
+.button3:hover {
+  background-color: #7f8cff;
+  color: white;
+}
+
+.button3:active {
+  background-color: blue;
+  color: whitesmoke;
+}
+
+.button3::after {
+  background-color: #fff;
+  color: black;
 }
