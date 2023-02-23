@@ -86,6 +86,14 @@ Example command:
 - Twitter:[@emmantihinyuka](https://twitter.com/emmantihinyuka)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ntihinyuka-emmanuel-511890104/)
 
+👤 **bertin kambale**
+
+- GitHub: [@ntimanu](https://github.com/ntimanu)
+
+👤 **Yan Min Thwin**
+
+- GitHub: [@anbehindY](- GitHub: [@anbehindY](https://github.com/anbehindY))
+
 ## 🔭 Future Features
 
 - [ ] **[Add more forms]**
