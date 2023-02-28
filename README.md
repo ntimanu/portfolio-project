@@ -35,7 +35,7 @@ Boostrap 5
 
 ## 🚀 Live Demo
 
-- [Comming Soon]
+- [https://ntimanu.github.io/portfolio-project/]
 
 ## 💻 Getting Started
 
