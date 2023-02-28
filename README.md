@@ -112,7 +112,7 @@ If you like this project feel free to share with your friends.
 
 ## 🙏 Acknowledgments
 
-I would like to thank Microverse for this amazing exercise.
+I would like to thank Microverse for this amazing project.
 
 ## 📝 License
 
