@@ -844,7 +844,7 @@ body {
   color: black;
 }
 
-/* -------------Desktop Version------------ */
+/* --------------------Desktop Version----------------- */
 
 @media (min-width: 768px) {
   body {
@@ -985,6 +985,10 @@ body {
     color: #6070ff;
   }
 
+  .navbar-logo:hover {
+    transform: rotate(10deg);
+  }
+
   .navbar-toggle {
     display: none;
   }
@@ -1105,6 +1109,10 @@ body {
     margin-left: -570px;
     margin-top: 6px;
     background-image: url(img/Snapshoot_Portfolio2.png);
+  }
+
+  .image:hover {
+    transform: scale(1.1);
   }
 
   .first {
@@ -1600,6 +1608,7 @@ body {
   .button3:hover {
     background-color: #7f8cff;
     color: white;
+    transform: translate(22px, 18px);
   }
 
   .button3:active {
@@ -1615,6 +1624,7 @@ body {
   .button:hover {
     background-color: #7f8cff;
     color: white;
+    transform: translate(22px, 18px);
   }
 
   .button:active {
@@ -1630,6 +1640,7 @@ body {
   .button2:hover {
     background-color: #7f8cff;
     color: white;
+    transform: translate(22px, 18px);
   }
 
   .button2:active {
