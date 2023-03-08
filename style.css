@@ -879,7 +879,6 @@ body {
 
 /* --------------------Desktop Version----------------- */
 @media (max-width: 768px) {
-
   .navbar {
     flex-direction: column;
     align-items: flex-start;
@@ -911,8 +910,6 @@ body {
 
   .navbar-links.active {
     position: absolute;
-
-    /* top: 64px; */
     height: 612px;
     display: flex;
     font-family: Poppins, sans-serif;
@@ -938,9 +935,6 @@ body {
 }
 
 @media (min-width: 768px) {
-  .close-button {
-  display: none;
-} 
   body {
     height: 5125px;
     width: 1440px;
