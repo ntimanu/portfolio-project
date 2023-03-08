@@ -29,6 +29,7 @@ body {
   position: relative;
   justify-content: space-between;
   align-items: center;
+  margin: 0 150px;
   color: #6070ff;
   background-color: #fff;
 }
@@ -952,7 +953,9 @@ body {
     background: #fff;
     border-radius: 0 0 0 10%/0 0 0 10%;
   }
-
+  .close-button {
+    display: none;
+  }
   .contactmenu {
     display: flex;
     flex-direction: row;
