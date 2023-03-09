@@ -81,10 +81,6 @@ body {
   width: 18px;
   height: 12px;
   padding: 4px;
-
-  /* cursor: pointer; */
-
-  /* border: 2px solid #000; */
 }
 
 .toggle-button .bar {
@@ -886,8 +882,11 @@ body {
 
   .toggle-button {
     display: flex;
+    left: 164px;
   }
-
+  .brand-title {
+    margin-left: -130px;
+  }
   .navbar-links {
     display: none;
     width: 100%;
@@ -910,7 +909,10 @@ body {
 
   .navbar-links.active {
     position: absolute;
+    width: 378px;
     height: 612px;
+    left: -152px;
+    right: 0px;
     display: flex;
     font-family: Poppins, sans-serif;
     font-style: normal;
@@ -919,7 +921,7 @@ body {
     line-height: 44px;
     background-color: #6070ff;
     mix-blend-mode: normal;
-    opacity: 0.92;
+    opacity: 0.96;
     z-index: 1;
     padding-top: 60px;
   }
@@ -927,7 +929,7 @@ body {
   .close-button {
     position: absolute;
     top: 14px;
-    right: 18px;
+    right: 40px;
     color: white;
     text-decoration: none;
   }
@@ -1237,9 +1239,7 @@ body {
     left: 44px;
     top: 80px;
     border-radius: 0;
-
-    /* background: url(Screen Shot 2020-07-11 at 16.29.32.png); */
-  }
+ }
 
   #jstxt2 {
     position: absolute;
