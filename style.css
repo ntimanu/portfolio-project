@@ -16,7 +16,7 @@ body {
 .allinone {
   position: absolute;
   background: #fff;
-  margin-top: -8;
+  margin-top: -8px;
   border-radius: 0 0 0 15%/0 0 0 10%;
 }
 
@@ -24,42 +24,71 @@ body {
   font-family: Poppins, sans-serif;
 }
 
-.portfolio,
-.about,
-.contactmenu {
-  display: none;
-}
-
-.navcontainer {
+.navbar {
   display: flex;
+  position: relative;
   justify-content: space-between;
-  list-style-type: none;
-  padding: 0%;
-  margin-top: 0;
+  align-items: center;
+  margin: 0 150px;
+  color: #6070ff;
+  background-color: #fff;
 }
 
-.navbar-logo {
+.brand-title {
   width: 76px;
   height: 20px;
-  margin-left: 24px;
-  margin-top: 60px;
+  margin-top: 24px;
+  margin-left: 20px;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #6070ff;
-  list-style-type: none;
-  text-decoration: none;
 }
 
-.navbar-toggle {
-  margin-right: 24px;
-  margin-left: 0;
-  margin-top: 60px;
-  list-style-type: none;
+.navbar-links {
+  height: 100%;
+}
+
+.navbar-links ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li {
+  list-style: none;
+}
+
+.navbar-links li a {
+  display: block;
+  text-decoration: none;
+  color: #344563;
+  padding: 1rem;
+}
+
+.navbar-links li:hover {
+  background-color: rgba(0, 0, 139, 0.055);
+}
+
+.toggle-button {
+  position: absolute;
+  top: 24px;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 18px;
+  height: 12px;
+  padding: 4px;
+}
+
+.toggle-button .bar {
+  /* display: block; */
+  height: 2px;
+  width: 100%;
+  background-color: #6070ff;
+  border-radius: 10px;
 }
 
 .container {
@@ -845,6 +874,68 @@ body {
 }
 
 /* --------------------Desktop Version----------------- */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .toggle-button {
+    display: flex;
+    left: 164px;
+  }
+
+  .brand-title {
+    margin-left: -130px;
+  }
+
+  .navbar-links {
+    display: none;
+    width: 100%;
+  }
+
+  .navbar-links ul {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .navbar-links ul li {
+    text-align: start;
+    padding-left: 10px;
+  }
+
+  .navbar-links ul li a {
+    padding: 0.5rem 1rem;
+    color: white;
+  }
+
+  .navbar-links.active {
+    position: absolute;
+    width: 378px;
+    height: 612px;
+    left: -152px;
+    right: 0;
+    display: flex;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    background-color: #6070ff;
+    mix-blend-mode: normal;
+    opacity: 0.96;
+    z-index: 1;
+    padding-top: 60px;
+  }
+
+  .close-button {
+    position: absolute;
+    top: 14px;
+    right: 40px;
+    color: white;
+    text-decoration: none;
+  }
+}
 
 @media (min-width: 768px) {
   body {
@@ -867,98 +958,8 @@ body {
     border-radius: 0 0 0 10%/0 0 0 10%;
   }
 
-  .navcontainer {
-    /* position: absolute; */
-    width: 1440px;
-    height: 72px;
-    left: 0;
-    top: 0;
-  }
-
-  nav {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0;
-    gap: 8px;
-    color: #344563;
-    position: absolute;
-    width: 259px;
-    height: 40px;
-    left: 1039px;
-    top: 16px;
-    font-family: Poppins, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
-    margin-top: 40px;
-  }
-
-  .desktopnav {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0;
-    gap: 8px;
-    position: absolute;
-    width: 259px;
-    height: 40px;
-    left: 0;
-    top: -40px;
-  }
-
-  .portfolio {
-    width: 63px;
-    height: 20px;
-    margin-left: 0;
-    font-family: Poppins, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #344563;
-  }
-
-  #portfoliotxt {
-    width: 63px;
-    height: 20px;
-    font-family: Poppins, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #344563;
-  }
-
-  .about {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 10px 12px;
-    gap: 10px;
-    width: 70px;
-    height: 40px;
-  }
-
-  #abouttxt {
-    width: 46px;
-    height: 20px;
-    font-family: Poppins, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #344563;
+  .close-button {
+    display: none;
   }
 
   .contactmenu {
@@ -969,41 +970,6 @@ body {
     gap: 10px;
     width: 86px;
     height: 40px;
-  }
-
-  .navbar-logo {
-    width: 76px;
-    height: 20px;
-    font-family: Poppins, sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 20px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #6070ff;
-  }
-
-  .navbar-logo:hover {
-    transform: rotate(10deg);
-  }
-
-  .navbar-toggle {
-    display: none;
-  }
-
-  #contactmenutxt {
-    width: 62px;
-    height: 20px;
-    font-family: Poppins, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
-    display: flex;
-    align-items: center;
-    text-align: center;
   }
 
   .container {
@@ -1275,7 +1241,6 @@ body {
     left: 44px;
     top: 80px;
     border-radius: 0;
-    background: url(Screen Shot 2020-07-11 at 16.29.32.png);
   }
 
   #jstxt2 {
@@ -1448,7 +1413,8 @@ body {
     line-height: 52px;
     margin-left: 600px;
     top: 0;
-    border-radius: nullpx;
+
+    /* border-radius: nullpx; */
     margin-top: 20px;
     color: #091e42;
   }
