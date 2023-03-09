@@ -4,8 +4,8 @@ toggleButton.addEventListener('click', () => {
   navbarLinks.classList.toggle('active');
   toggleButton.classList.toggle('hidden');
 });
-const articalFirst = document.querySelector(".first");
-const openButton = document.querySelector(".first-button");
+const articalFirst = document.querySelector('.first');
+const openButton = document.querySelector('.first-button');
 openButton.addEventListener('click', () => {
   console.log('clicked');
   const mainpopup = document.createElement('div');
@@ -47,13 +47,13 @@ openButton.addEventListener('click', () => {
         <button class="first-button2" type="button" id="messagep">See Source</button>
         </div>
 </article>
-<div id='overlay'></div.`
-articalFirst.appendChild(popupcontainer);
-articalFirst.appendChild(mainpopup);
+<div id='overlay'></div.`;
+  articalFirst.appendChild(popupcontainer);
+  articalFirst.appendChild(mainpopup);
 
-const closeButton2 = document.querySelector('.close-button2');
-closeButton2.addEventListener('click', () => {
-  articalFirst.removeChild(popupcontainer);
-  articalFirst.removeChild(mainpopup);
-} )
-})
+  const closeButton2 = document.querySelector('.close-button2');
+  closeButton2.addEventListener('click', () => {
+    articalFirst.removeChild(popupcontainer);
+    articalFirst.removeChild(mainpopup);
+  });
+});
