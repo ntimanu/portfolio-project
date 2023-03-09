@@ -884,9 +884,11 @@ body {
     display: flex;
     left: 164px;
   }
+
   .brand-title {
     margin-left: -130px;
   }
+
   .navbar-links {
     display: none;
     width: 100%;
@@ -912,7 +914,7 @@ body {
     width: 378px;
     height: 612px;
     left: -152px;
-    right: 0px;
+    right: 0;
     display: flex;
     font-family: Poppins, sans-serif;
     font-style: normal;
@@ -1239,7 +1241,7 @@ body {
     left: 44px;
     top: 80px;
     border-radius: 0;
- }
+  }
 
   #jstxt2 {
     position: absolute;
