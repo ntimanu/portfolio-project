@@ -223,7 +223,7 @@ openButton4.addEventListener('click', () => {
     articalfourth.removeChild(mainpopup);
   });
 });
-//Contact form validation
+// Contact form validation
 
 const contactForm = document.getElementById('form-id');
 const contactEmail = document.getElementById('email-id');

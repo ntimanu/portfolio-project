@@ -1132,21 +1132,22 @@ body {
   background: #fff;
   border: 1px solid #cfd8dc;
 }
+
 #errormessage {
   color: red;
   font-family: Poppins, sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 100;
   font-size: 20px;
   line-height: 28px;
   position: absolute;
   height: 28px;
   width: 427px;
-  top: 476px;
-  right: 0px;
+  top: 470px;
+  right: 0;
   left: 510px;
- 
 }
+
 .inputtxt3 {
   position: relative;
   left: 24px;
