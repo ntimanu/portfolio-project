@@ -7,7 +7,6 @@ toggleButton.addEventListener('click', () => {
 const articalFirst = document.querySelector('.first');
 const openButton = document.querySelector('.first-button');
 openButton.addEventListener('click', () => {
-  console.log('clicked');
   const mainpopup = document.createElement('div');
   mainpopup.className = 'main-popup';
   const popupcontainer = document.createElement('div');
@@ -223,4 +222,16 @@ openButton4.addEventListener('click', () => {
     articalfourth.removeChild(popupcontainer);
     articalfourth.removeChild(mainpopup);
   });
+});
+//Contact form validation
+
+const contactForm = document.getElementById('form-id');
+const contactEmail = document.getElementById('email-id');
+const contactError = document.getElementById('errormessage');
+
+contactForm.addEventListener('submit', (event) => {
+  if (contactEmail.value.toLowerCase() !== contactEmail.value) {
+    event.preventDefault();
+    contactError.innerText = 'please type your email in lowercase. form not submitted';
+  }
 });
