@@ -1133,6 +1133,12 @@ body {
   border: 1px solid #cfd8dc;
 }
 #errormessage {
+  color: red;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
   position: absolute;
   height: 28px;
   width: 427px;
