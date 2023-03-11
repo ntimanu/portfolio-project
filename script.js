@@ -235,3 +235,26 @@ contactForm.addEventListener('submit', (event) => {
     contactError.innerText = 'please type your email in lowercase. form not submitted';
   }
 });
+
+// storage
+
+const formName = document.getElementById('form-name');
+const formMessage = document.getElementById('form-message');
+
+contactForm.addEventListener('input', () => {
+  const formData = {
+    name: formName.value,
+    email: contactEmail.value,
+    message: formMessage.value,
+  };
+  localStorage.setItem('contactForm', JSON.stringify(formData));
+});
+function showData() {
+  const userData = JSON.parse(localStorage.getItem('contactForm'));
+  if (userData) {
+    formName.value = userData.name;
+    contactEmail.value = userData.email;
+    formMessage.value = userData.message;
+  }
+}
+showData();
