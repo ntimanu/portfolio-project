@@ -1941,7 +1941,7 @@ body {
   .button3:hover {
     background-color: #7f8cff;
     color: white;
-    transform: translate(22px, 18px);
+    transform: translate(20px, 16px);
   }
 
   .button3:active {
@@ -1957,7 +1957,7 @@ body {
   .button:hover {
     background-color: #7f8cff;
     color: white;
-    transform: translate(22px, 18px);
+    transform: translate(20px, 16px);
   }
 
   .button:active {
@@ -1973,7 +1973,7 @@ body {
   .button2:hover {
     background-color: #7f8cff;
     color: white;
-    transform: translate(22px, 18px);
+    transform: translate(20px, 16px);
   }
 
   .button2:active {
